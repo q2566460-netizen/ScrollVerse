@@ -1,0 +1,25 @@
+# 忽略生成的图片与中间切片
+part_*.png
+master_*.png
+slice_*.png
+slices_meta.json
+
+# 忽略生成的视频文件 (保留 assets/ 目录下的小型演示文件)
+*.mp4
+*.avi
+*.mov
+!assets/*
+
+# 忽略 Blender 自动生成的工程与备份文件
+*.blend
+*.blend1
+
+# 忽略本地大模型权重与 Python 缓存
+*.pt
+*.onnx
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
